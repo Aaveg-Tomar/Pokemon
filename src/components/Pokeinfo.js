@@ -18,7 +18,7 @@ const Pokeinfo = ({ data, onClose }) => {
             <div className=" m-8">
               <img className=" ml-auto mr-auto w-72 "
                 src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${data.id}.svg`}
-                alt=""
+                alt="image"
               />
             </div>
             <div>
