@@ -10,7 +10,7 @@ const Pokeinfo = ({ data, onClose }) => {
           <div className="bg-yellow-300 p-2 rounded-md">
           <div className=" flex mb-4 justify-between  ">
             <h1 className=" font-bold font-serif text-center text-3xl mr-11">{data.name.toUpperCase()}</h1>
-            <button className="close-btn ml-20" onClick={onClose}>
+            <button className="close-btn " onClick={onClose}>
               <img className=" w-8" src="./images/cancel.png" />
             </button>
           </div>

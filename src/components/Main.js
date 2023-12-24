@@ -89,7 +89,7 @@ const Main = () => {
             <div>
                 <img className="mx-auto w-96" src="./images/pokemonLogo.svg" alt="Pokemon Logo" />
             </div>
-            <div className="flex justify-center space-x-10">
+            <div className="flex justify-center ">
                 <div className="mx-2">
                     <SearchBar setSearchTerm={setSearchTerm} />
                 </div>
